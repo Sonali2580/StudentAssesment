@@ -1,0 +1,21 @@
+2023-03-23 19:17:00.138  INFO 15212 --- [main] edu.student.StudentJpaApplication        : Starting StudentJpaApplication v0.0.1-SNAPSHOT using Java 19.0.1 on DESKTOP-9R5NER4 with PID 15212 (F:\STS-MARCH2023\sts-4.17.2.RELEASE\PROJECTS\studentJPA\studentJPA\target\studentJPA-0.0.1-SNAPSHOT.jar started by Acer in F:\STS-MARCH2023\sts-4.17.2.RELEASE\PROJECTS\studentJPA\studentJPA\target)
+2023-03-23 19:17:00.140  INFO 15212 --- [main] edu.student.StudentJpaApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-03-23 19:17:00.674  INFO 15212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-23 19:17:00.730  INFO 15212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2023-03-23 19:17:01.343  INFO 15212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2023-03-23 19:17:01.352  INFO 15212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-23 19:17:01.353  INFO 15212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-23 19:17:01.415  INFO 15212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-23 19:17:01.416  INFO 15212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1225 ms
+2023-03-23 19:17:01.446  INFO 15212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-23 19:17:01.684  INFO 15212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-23 19:17:01.696  INFO 15212 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2amitava'. Database available at 'jdbc:h2:mem:sonali'
+2023-03-23 19:17:01.873  INFO 15212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-23 19:17:01.927  INFO 15212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-23 19:17:02.099  INFO 15212 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-23 19:17:02.189  INFO 15212 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-23 19:17:02.688  INFO 15212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-23 19:17:02.696  INFO 15212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-23 19:17:03.003  WARN 15212 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-23 19:17:03.362  INFO 15212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2023-03-23 19:17:03.371  INFO 15212 --- [main] edu.student.StudentJpaApplication        : Started StudentJpaApplication in 3.711 seconds (JVM running for 4.191)
